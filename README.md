@@ -11,7 +11,7 @@ We're advertising you on <http://olinjs.github.com/>. This helps engage our spon
 **Recap**:
 
 * **Express** is a *server* library. It is an abstraction for Node. Reference is here: <http://nodejs.org/api/>
-* **Jade** is a way to make *templates*, HTML pages that can have strings and other content easily added into them. Refernce is here: <http://naltatis.github.com/jade-syntax-docs/>
+* **Jade** is a way to make *templates*, HTML pages that can have strings and other content easily added into them. Reference is here: <http://naltatis.github.com/jade-syntax-docs/>
 * **Mongoose** is a *database* library. It is an abstraction for MongoDB. Reference is here: <http://mongoosejs.com/docs/guide.html>
 
 **Mongoose queries** 
