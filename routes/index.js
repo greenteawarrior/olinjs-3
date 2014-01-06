@@ -1,3 +1,5 @@
+//storing all the entries in the to-do list in an array 
+//(probably because mongoose/DB stuff would be overkill for this example)
 var todos = [];
 
 exports.index = function (req, res) {
@@ -8,8 +10,8 @@ exports.index = function (req, res) {
 };
 
 exports.index_post = function (req, res) {
-  todos.push(req.body.todo); 
   //push is a javascript function that adds new elements to the end of an array
+  todos.push(req.body.todo); 
   res.redirect('/');
 };
 

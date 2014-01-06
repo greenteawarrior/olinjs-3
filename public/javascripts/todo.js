@@ -1,3 +1,5 @@
+//embedding javascript into the page
+
 $(function () {
   $('#newform').on('submit', function () {
     $.post("/", $('#newform').serialize());
