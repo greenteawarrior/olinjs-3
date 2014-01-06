@@ -277,7 +277,7 @@ block content
   form(method='post', action='/', id="newform")
     | New todo item:
     input(name='todo', id="newinput")
-    button('type='submit')
+    button(type='submit')
       | Done
 
   ul(id="todolist")
