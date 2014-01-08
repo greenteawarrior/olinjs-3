@@ -11,7 +11,7 @@ exports.index = function (req, res) {
 
 exports.index_post = function (req, res) {
   //push is a javascript function that adds new elements to the end of an array
-  todos.push(req.body.todo); 
+  //todos.push(req.body.todo); 
   res.redirect('/');
 };
 

@@ -5,17 +5,14 @@ $(function () {
     var li = $('<li>' + $('#newinput').val() + '</li>')
     $('#todolist').append(li);
 
-    //delete button shenanigans -_-
-    var form = $('<form method="post" action="/delete/' + $('#todolist li').length + '"><button>Delete</button></form>')
+    var form = $('<button class="deleteform">Delete</button>');
     $(li).append(form);
-
-    form.on('submit', function () {
-      $.post("/", form.serialize());
-      $(this).parent.remove();
-      return false;
-    })
+    $(form).on('click', function () {
+        $(this).parent().remove();
+    });
 
     return false;
   })
+
 })
 
