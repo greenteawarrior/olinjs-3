@@ -13,6 +13,6 @@ block content
     each todo, i in todos
       li
         div= todo
-        form(method='post', action='/delete/' + i) 
+        form(method='post', action='/delete/' + i, id="deletething") 
           button
             | Delete
